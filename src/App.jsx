@@ -11,6 +11,7 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import slide_image_1 from "./assets/Ann.png";
 import slide_image_2 from "./assets/Annn.png";
 import slide_image_3 from "./assets/nA.png";
+import slide_image_4 from "../kawaii.jpeg";
 
 function App() {
   return (
@@ -48,6 +49,10 @@ function App() {
         <SwiperSlide>
           <img src={slide_image_3} alt="slide_image" />
         </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide_image_4} alt="slide_image" />
+        </SwiperSlide>
+        {/*  Slide Controller */}
 
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
